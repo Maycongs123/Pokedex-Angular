@@ -1,6 +1,7 @@
 .header-logo {
     display: flex;
     justify-content: center; 
+    height: 10rem;
     @media (min-width: 1200px) {
         display: flex;
         justify-content: flex-start;
@@ -224,7 +225,7 @@
 .normal { background-color: none; }
 .fire { background-color: red; }
 .water { background-color: blue; }
-.electric { background-color: yellow; }
+.electric { background-color: yellow;  color: black}
 .grass { background-color: green; }
 .ice { background-color: lightblue; }
 .fighting { background-color: red; color: white; }
